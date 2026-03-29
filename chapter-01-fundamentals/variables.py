@@ -26,3 +26,13 @@ In short: flexible assignment, strict usage.
 """
 "10" + 5  # ❌ Error
 
+# n / 10 → normal division (float result)
+# n // 10 → floor division (integer result)
+
+""" 
+/ → gives decimal (float) → ❌ not suitable for digit problems
+/ / → gives integer division → ✅ correct for digit extraction
+
+👉 Rule:
+For DSA digit problems → always use //, not /
+"""
