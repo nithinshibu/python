@@ -62,3 +62,47 @@ str
 tuple
 
 """
+
+
+""" 
+🔹 List (mutable, ordered)
+
+append(x) → add element
+extend(iterable) → add multiple
+insert(i, x) → insert at index
+remove(x) → remove value
+pop() → remove last / by index
+sort() → sort in-place
+reverse() → reverse list
+index(x) → find position
+count(x) → frequency
+
+🔹 Dictionary (key-value, mutable)
+
+get(key) → safe access
+keys() → all keys
+values() → all values
+items() → key-value pairs
+update(dict) → merge
+pop(key) → remove key
+popitem() → remove last pair
+setdefault(key, val) → insert if missing
+
+🔹 Tuple (immutable, ordered)
+
+count(x) → frequency
+index(x) → position
+
+👉 (Very limited because immutable)
+
+🔹 Set (mutable, unordered, unique)
+
+add(x) → add element
+remove(x) → remove (error if missing)
+discard(x) → remove safely
+union(set) → combine
+intersection(set) → common elements
+difference(set) → subtract
+update(set) → modify in-place
+
+"""
