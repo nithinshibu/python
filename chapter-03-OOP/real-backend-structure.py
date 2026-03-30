@@ -59,3 +59,21 @@ When building APIs:
 👉 Inheritance = optional reuse
 
 """
+
+""" 
+# Typical Project structure
+project/
+│
+├── routes/
+│   └── user_routes.py
+│
+├── services/
+│   └── user_service.py
+│
+├── models/
+│   └── user_model.py
+│
+├── db/
+│   └── database.py
+
+"""
