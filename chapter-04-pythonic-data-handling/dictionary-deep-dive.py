@@ -73,3 +73,37 @@ users = [
 
 result = [{"user_id":u["id"],"username":u["name"]} for u in users]
 
+# Dictionary Comprehension 
+
+nums = [1,2,3]
+
+square_map = {x: x*x for x in nums}
+
+users = [
+    {"id": 1, "name": "A"},
+    {"id": 2, "name": "B"}
+]
+
+user_map = {u["id"]: u for u in users}
+
+""" 
+Output:
+{
+    1: {"id": 1, "name": "A"},
+    2: {"id": 2, "name": "B"}
+}
+
+"""
+
+# Merging dictionaries 
+
+a = {"x":1}
+b = {"y":2}
+
+merged = {**a,**b}
+
+base = {"status": "success"}
+data = {"user": user}
+
+response = {**base, **data}
+
